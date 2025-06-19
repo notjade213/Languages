@@ -1,0 +1,4 @@
+name: Languages
+version: '1.0'
+main: notjade.languages.Languages
+api-version: '1.21'
