@@ -1,4 +1,5 @@
 name: Languages
 version: '1.0'
-main: notjade.languages.Languages
+main: notjade.languages.Main.Languages
 api-version: '1.21'
+depend: [adventure-text-minimessage]
