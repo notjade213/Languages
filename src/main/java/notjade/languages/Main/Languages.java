@@ -1,11 +1,13 @@
 package notjade.languages.Main;
 
 import notjade.languages.Listeners.ChatListener;
+
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Languages extends JavaPlugin {
     public static Languages plugin;
+
 
     @Override
     public void onEnable() {
@@ -14,7 +16,6 @@ public final class Languages extends JavaPlugin {
 
         // Register Listener
         Bukkit.getPluginManager().registerEvents(new ChatListener(), this);
-
 
 
     }
